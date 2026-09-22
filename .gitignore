@@ -1,0 +1,17 @@
+
+# Ignore all CSV files anywhere in the repo
+*.csv
+
+# Ignore data directories (and anything inside them)
+data/
+Data/
+**/data/
+
+# Ignore Python caches & environment files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Ignore macOS metadata files
+.DS_Store
